@@ -1,0 +1,23 @@
+{
+  "name": "node-composer-cli",
+  "version": "1.0.1",
+  "description": "Ultra simple wrapper for composer.phar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkyaTura/node-composer-cli"
+  },
+  "homepage": "https://github.com/SkyaTura/node-composer-cli#readme",
+  "main": "index.js",
+  "bin": {
+    "ncomposer": "composer.phar"
+  },
+  "scripts": {
+    "install": "nwget https://getcomposer.org/composer-stable.phar -O composer.phar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Eduardo <antonio@skyatura.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "wget-improved": "^3.2.1"
+  }
+}
